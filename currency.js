@@ -12,11 +12,11 @@ function main(){
 
     var amount = document.getElementById("first").value; // zar
     
-    var rate = 16; //dollar
+    var rate = 16; //dollar for testing purposes
     var ans = convert(amount, rate);
     if(!isNaN(amount) && amount !=0){
-       // document.getElementById("second").innerHTML = 5+6;
-        alert(convert(amount, rate)); // need to change so i display in the htm file
+       document.getElementById("second").value = ans;
+       // alert(convert(amount, rate)); // need to change so i display in the html file
     }
     else{
         alert("Please enter an Interger value...");
