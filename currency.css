@@ -1,6 +1,9 @@
+/*@import url(chrome://resources/css/roboto.css);*/
 body{
     text-align: center ;
     background-color: rgb(216, 216, 216);
+    font-family: Chalkduster, fantasy;
+     font-size: 81.25%;
 }
 #first{
     height: 20px;
@@ -9,3 +12,7 @@ body{
 #second{
     height: 20px ;
 }
+button {
+  font-family: American Typewriter, serif;
+}
+
